@@ -1,0 +1,190 @@
+mystate.o: mystate.c mystate.h myfunc.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/types.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/features.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/cdefs.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/types.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/wordsize.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/lib/gcc/mips-unknown-linux-uclibc/4.6.3/include/stddef.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/typesizes.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/endian.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/endian.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/byteswap.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/byteswap.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sgidefs.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/time.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/select.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/select.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/sigset.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/time.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/sysmacros.h \
+ dlfunc.h ../config.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/stdio.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/wchar.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/wchar.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uClibc_mutex.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/pthread.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sched.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/sched.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uClibc_clk_tck.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/signal.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/setjmp.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uClibc_pthread.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/lib/gcc/mips-unknown-linux-uclibc/4.6.3/include/stdarg.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/time.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/string.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/stdlib.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/alloca.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/netinet/in.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/lib/gcc/mips-unknown-linux-uclibc/4.6.3/include/stdint.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/stdint.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/socket.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/uio.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uio.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/socket.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/lib/gcc/mips-unknown-linux-uclibc/4.6.3/include-fixed/limits.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/lib/gcc/mips-unknown-linux-uclibc/4.6.3/include-fixed/syslimits.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/limits.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/posix1_lim.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/local_lim.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/linux/limits.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uClibc_local_lim.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/posix2_lim.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/sockaddr.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/asm/socket.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/asm/sockios.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/asm/ioctl.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/asm-generic/ioctl.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/in.h
+
+mystate.h:
+
+myfunc.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/types.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/features.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/cdefs.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/types.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/wordsize.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/lib/gcc/mips-unknown-linux-uclibc/4.6.3/include/stddef.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/typesizes.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/endian.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/endian.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/byteswap.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/byteswap.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sgidefs.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/time.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/select.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/select.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/sigset.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/time.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/sysmacros.h:
+
+dlfunc.h:
+
+../config.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/stdio.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/wchar.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/wchar.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uClibc_mutex.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/pthread.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sched.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/sched.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uClibc_clk_tck.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/signal.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/setjmp.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uClibc_pthread.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/lib/gcc/mips-unknown-linux-uclibc/4.6.3/include/stdarg.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/time.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/string.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/stdlib.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/alloca.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/netinet/in.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/lib/gcc/mips-unknown-linux-uclibc/4.6.3/include/stdint.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/stdint.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/socket.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/uio.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uio.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/socket.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/lib/gcc/mips-unknown-linux-uclibc/4.6.3/include-fixed/limits.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/lib/gcc/mips-unknown-linux-uclibc/4.6.3/include-fixed/syslimits.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/limits.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/posix1_lim.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/local_lim.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/linux/limits.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uClibc_local_lim.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/posix2_lim.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/sockaddr.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/asm/socket.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/asm/sockios.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/asm/ioctl.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/asm-generic/ioctl.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/in.h:

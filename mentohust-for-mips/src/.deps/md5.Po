@@ -1,0 +1,20 @@
+md5.o: md5.c md5.h types.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/string.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/features.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/cdefs.h \
+ /home/acgotaku/x-tools/mips-unknown-linux-uclibc/lib/gcc/mips-unknown-linux-uclibc/4.6.3/include/stddef.h
+
+md5.h:
+
+types.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/string.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/features.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot/usr/include/sys/cdefs.h:
+
+/home/acgotaku/x-tools/mips-unknown-linux-uclibc/lib/gcc/mips-unknown-linux-uclibc/4.6.3/include/stddef.h:

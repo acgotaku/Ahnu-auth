@@ -1,0 +1,6 @@
+aclocal
+autoheader
+automake --add-missing
+autoconf
+CC=mips-unknown-linux-uclibc-gcc ./configure --host=mips-linux
+make
