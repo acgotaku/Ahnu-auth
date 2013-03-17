@@ -22,10 +22,10 @@ CC=mips-unknown-linux-uclibc-gcc 是指定交叉编译的工具链,我的交叉�
 就是这个,所以这么写,大家可以根据自己的交叉编译工具链进行更改.
 
 #校园网外网认证
-学校的校园网外网认证是安腾认证,就是大家俗称的红蝴蝶
-aecium是安师大学长根据官方版本反汇编重写的
-详细链接:[Amtium eFlow Client for GNU/Linux](http://www.anshida.net/bbs/thread-28476-1-1.html)
-aecium支持赛尔、安腾以及友讯的BAS认证.
+学校的校园网外网认证是安腾认证,就是大家俗称的红蝴蝶  
+aecium是安师大学长根据官方版本反汇编重写的  
+详细链接:[Amtium eFlow Client for GNU/Linux](http://www.anshida.net/bbs/thread-28476-1-1.html)  
+aecium支持赛尔、安腾以及友讯的BAS认证.  
 
 ##外网认证 for linux
 
@@ -47,7 +47,7 @@ aecium支持赛尔、安腾以及友讯的BAS认证.
 在路由器上完成外网认证我整整折腾了半个月(还是我太菜啊)
 关键问题是路由器的CPU是大端字节序的 PC的CPU是下端字节序的
 而认证的时候使用了MD5进行数据加密,MD5在不同类型的字节序加密
-方式也会不一样.于是修改源码在md5.c文件第19行加一句#define WORDS_BIGENDIAN
+方式也会不一样.于是修改源码在md5.c文件第19行加一句#define WORDS_BIGENDIAN  
 问题变解决了,在此感谢给予我帮助的薛峰老师.
 然后对代码其它地方进行小幅度的修改,使能适应路由器的busybox.
 交叉编译的方法:
@@ -59,5 +59,6 @@ aecium支持赛尔、安腾以及友讯的BAS认证.
 	CC=mips-unknown-linux-uclibc-gcc ./configure --host=mips-linux
 	make
 至此,完成了校园网认证在Linux平台和路由器上的使用.能在路由器上认证校园网就再也不用
-担心平板和手机上网的问题啦~希望这个项目能对大家有帮助,谢谢~
+担心平板和手机上网的问题啦~希望这个项目能对大家有帮助,谢谢~  
+关于交叉编译,可以参加crosstool文件夹里的说明
 
