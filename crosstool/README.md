@@ -48,7 +48,7 @@ Configuration file 这是C库的配置文件,我会提供一个给大家的
 
 #设置环境变量
 我的交叉编译工具链生成的地方是 /home/acgotaku/x-tools/mips-Arch-linux-uclibc
-所以编辑 .bashrc文件
+所以编辑 .bashrc文件  
 添加: export PATH=/home/acgotaku/x-tools/mips-Arch-linux-uclibc/bin:$PATH  
 然后重启X或者注销重新登录,即可像 ls,cd命令那样使用mips-Arch-linux-uclibc-gcc命令  
 至此,交叉编译工具链的配置和生成完成

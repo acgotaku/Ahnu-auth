@@ -37,6 +37,7 @@ aecium支持赛尔、安腾以及友讯的BAS认证.
 	make
 	make install
 解释:
+
 	先用aclocal扫描configure.ac/.in生成aclocal.m4
 	再用autoheader生成特定的C文件头
 	再用automake扫描Makefile.am生成Makeifle.in
