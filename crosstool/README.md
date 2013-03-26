@@ -52,3 +52,7 @@ Configuration file 这是C库的配置文件,我会提供一个给大家的
 添加: export PATH=/home/acgotaku/x-tools/mips-Arch-linux-uclibc/bin:$PATH  
 然后重启X或者注销重新登录,即可像 ls,cd命令那样使用mips-Arch-linux-uclibc-gcc命令  
 至此,交叉编译工具链的配置和生成完成
+#修改固件
+DD-WRT的固件是只读的,要想添加相应的程序必须修改固件才行,
+OPEN-WRT的固件是可以随意擦写的,所以只要wget放进去即可,
+除非复位,程序都在的. 修改固件的软件是:[Firmware Modification Kit](http://bitsum.com/firmware_mod_kit.htm)
